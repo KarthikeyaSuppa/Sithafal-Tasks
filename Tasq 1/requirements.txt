@@ -1,0 +1,20 @@
+# General libraries
+langchain>=0.0.307
+langchain-core>=0.0.220
+langchain-community>=0.0.4
+langchain-openai>=0.0.3
+langchainhub>=0.0.1
+
+# For PDF extraction
+unstructured[all-docs]>=0.6.0
+pydantic>=1.10.11
+lxml>=4.9.3
+
+# For OCR and related tools
+unstructured-pytesseract>=0.1.1
+tesseract-ocr>=0.3.1
+pillow>=9.0.0
+
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
